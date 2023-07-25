@@ -1,0 +1,28 @@
+*{
+    background-color: #353740;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.button{
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(25, 195, 125);
+    color: whitesmoke;
+    width: 180px;
+    height: 50px;
+}
