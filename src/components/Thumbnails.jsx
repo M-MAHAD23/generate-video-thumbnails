@@ -51,18 +51,6 @@ const Thumbnails = (props) => {
                 key={`thumb_${index}`}
                 onClick={() => setSelectedThumbnail(image)}
               />
-
-
-              {/* <img
-            src={image}
-            alt="thumbnails"
-            className={`width-100 ${
-              image === selectedThumbnail ? "active" : ""
-            }`}
-            style={{ maxWidth: 200 }}
-            key={`thumb_${index}`}
-            onClick={() => setSelectedThumbnail(image)}
-          /> */}
             </>
           );
         })}
